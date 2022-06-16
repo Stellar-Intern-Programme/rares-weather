@@ -1,0 +1,108 @@
+.background {
+  display: flex;
+  background-color: rgb(66, 172, 211);
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  background-color: aliceblue;
+  width: 90%;
+  height: 85%;
+  border-radius: 50px;
+}
+.right {
+  background-color: rgb(20, 3, 54);
+  flex: 0.5;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.left {
+  background-color: #ddf0f5;
+  flex: 1;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  display: flex;
+}
+
+.Nav {
+  display: flex;
+  padding: 90px;
+  width: 30%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.Nav input[type="text"] {
+  border-radius: 5px;
+  border-width: 0px;
+  width: 160%;
+  height: 6%;
+}
+
+.Placeholder {
+  background-color: white;
+  width: 160%;
+  height: 5%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.Lupa {
+  align-items: center;
+}
+.pozabgd {
+  border-radius: 5px;
+  margin: 0;
+}
+
+.profile {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 15%;
+  padding: 15%;
+}
+
+.profile p {
+  display: flex;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+
+  color: #ffffff;
+}
+
+.notif {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 5%;
+}
+.text1 {
+  margin: 0%;
+}
+.text2 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  border-radius: 20%;
+  padding: 0 2%;
+  flex-wrap: nowrap;
+  height: fit-content;
+}
+.text3 {
+  display: flex;
+  margin: 0;
+}
