@@ -19,6 +19,7 @@ body {
   border-radius: 50px;
 }
 .right {
+  position: relative;
   background-color: rgb(20, 3, 54);
   flex: 0.5;
   border-top-right-radius: 50px;
@@ -36,7 +37,7 @@ body {
 .Nav {
   display: flex;
   padding: 90px;
-  width: 30%;
+  box-sizing: border-box;
   height: 100%;
   border-radius: 20px;
 }
@@ -105,4 +106,23 @@ body {
 .text3 {
   display: flex;
   margin: 0;
+}
+.nor2{
+  width: 60%;
+  height: 60%;
+  position: absolute;
+  top: 45%;
+  right:0;
+}
+.nor2 img{
+  width: 100%;
+}
+
+.nor1{
+  width: 50%;
+  height: 50%;
+  position: absolute;
+}
+.nor1 img{
+  width: 100%;
 }
