@@ -9,6 +9,7 @@
 
 body {
   margin: 0;
+  font-family: 'Inter', sans-serif;
 }
 
 .main {
@@ -64,6 +65,8 @@ body {
 .pozabgd {
   border-radius: 5px;
   margin: 0;
+  width: 60px;
+  height: 60px;
 }
 
 .profile {
@@ -113,6 +116,9 @@ body {
   position: absolute;
   top: 45%;
   right:0;
+  user-select: none;
+  z-index: 1;
+  pointer-events: none;
 }
 .nor2 img{
   width: 100%;
@@ -122,7 +128,191 @@ body {
   width: 50%;
   height: 50%;
   position: absolute;
+  top: 25%;
 }
 .nor1 img{
   width: 100%;
 }
+.titl{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.vreme{
+  display: flex;
+  flex-direction: column;
+
+}
+.vreme p{
+  display: flex;
+  font-family: 'Inter';
+  font-style: normal;
+  margin: 0;
+  color: #ffffff;
+}
+
+.sectiune1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+}
+
+.II{
+ display: flex;
+ flex-direction: row;
+ gap: 15px;
+}
+
+.Bigger{
+  font-size: 200%;
+}
+.temp{
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.grade{
+  font-size: 120px;
+  font-weight: 700;
+}
+.celsius{
+  font-size: 40px;
+  margin-top: 20px;
+}
+.date{
+  font-size: 12px;
+  font-weight: 300;
+  
+}
+.zii{
+  font-size: 30px;
+  font-weight: 1000;
+}
+.oras p{
+  font-size: 12px;
+  font-weight: 200;
+  color: #D9D9D9;
+}
+.oras_over{
+  display: flex;
+  justify-content: center;
+}
+.info{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.info p{
+  display: flex;
+  font-family: 'Inter';
+  font-style: normal;
+  margin: 0;
+  color:#D9D9D9;
+  font-size: 12px;
+}
+.ploaie{
+margin-top: 85px; ;
+margin-left: 25px;
+}
+.ploaie p{
+  display: flex;
+  font-family: 'Inter';
+  font-style: normal;
+  margin: 0;
+  color: #ffffff;
+  font-size: 20px;
+}
+.nume p{
+  display: flex;
+  font-family: 'Inter';
+  font-style: normal;
+  margin: 0;
+  color:#D9D9D9;
+  font-size: 16px;
+  justify-content: space-between;
+}
+.nume{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  white-space: nowrap;
+  margin-right: 16px;
+  margin-bottom: 10%; ;
+}
+.tabel_over{
+  margin: 0;
+  padding: 30px;
+  box-sizing: border-box;
+  display: flex;
+  padding-top: 30px;
+  padding-left: 15px;
+  width: 97%;
+  flex-direction: row;
+  height: 100%;
+}
+.sectiune2{
+  height: 31%;
+}
+.sanse{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+}
+.sanse img{
+ width: 100%; 
+}
+.poza1{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+.poza1 p{
+  color:#FFFFFF;
+}
+.line1{
+  width: 100%;
+  height: 60%;
+  background-color:  #365B7D;
+  display: flex;
+  border-radius: 8px;
+}
+.line2{
+  width: 100%;
+  height: 17%;
+  background-color:  #365B7D;
+  display: flex;
+  border-radius: 8px;
+}
+.line3{
+  width: 100%;
+  height: 100%;
+  background-color:  #365B7D;
+  display: flex;
+  border-radius: 8px;
+}
+.line4{
+  width: 100%;
+  height: 23%;
+  background-color:  #365B7D;
+  display: flex;
+  border-radius: 8px;
+}
+.line5{
+  width: 100%;
+  height: 23%;
+  background-color:  #365B7D;
+  display: flex;
+  border-radius: 8px;
+}
+
+.line:hover{
+  transition: 0.3s;
+ background-color: yellow;
+}
+
