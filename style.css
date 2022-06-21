@@ -21,10 +21,12 @@ body {
 }
 .right {
   position: relative;
-  background-color: rgb(20, 3, 54);
-  flex: 0.5;
+  background-color: #1f3b5b;
+  flex: 0.6;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
+  flex-direction: column;
+  display: flex;
 }
 
 .left {
@@ -74,7 +76,8 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 15%;
-  padding: 15%;
+  padding: 0 10%;
+  flex: 0.5;
 }
 
 .profile p {
@@ -157,7 +160,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 40%;
+  flex: 1;
 }
 
 .II{
@@ -254,7 +257,10 @@ margin-left: 25px;
   height: 100%;
 }
 .sectiune2{
-  height: 31%;
+  flex: 1;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
 }
 .sanse{
   display: flex;
